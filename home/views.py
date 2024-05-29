@@ -1,11 +1,16 @@
-from django.shortcuts import render,HttpResponse
+from django.shortcuts import render
+
 
 def index(request):
-    return render(request,"index.html")
+    return render(request, "index.html")
+
 def about(request):
-    return render(request,"about.html")
+    return render(request, "about.html")
+
 def prediction(request):
-    return render(request,"prediction.html")
+    
+  
+        return render(request, "prediction.html")
 
 def contact(request):
-    return render(request,"contact.html")
+    return render(request, "contact.html")
